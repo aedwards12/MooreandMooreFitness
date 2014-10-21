@@ -1,0 +1,260 @@
+@import url(http://fonts.googleapis.com/css?family=News+Cycle:400,700);
+
+
+body{
+	background-image: url("http://mareeschena.com/wp-content/uploads/2014/09/gym-weights.jpg");
+	background-attachment: fixed;
+	background-repeat: none;
+	background-size: 100% 100%;
+  background-position: center;
+	color: #FBFBFB;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 160%;
+}
+
+.header-location{
+	height: 30px;
+	color:#B65710;
+	}
+
+.navbar{
+		background-color: black;
+    box-shadow: 0px 0px 10px black;
+}
+.nav{
+	background-color: black;
+}
+.nav li a:hover{
+	color: red;
+}
+.nav ul li:hover {
+	color: red;
+}
+.phone{
+	color:#9D1200;
+}
+
+/*bootstap*/
+.modal-dialog{
+	width: 900px;
+	margin:85px auto;
+}
+
+img {
+  width:100%;
+}
+
+.jumbotron{
+	/*min-height: 600px;*/
+	margin-bottom: 0px;
+	
+	width: 100%;
+  padding-top: 54.166666666667%;
+   height: 0;
+	background-image:url("http://mp-fitness.eu/wp-content/uploads/2014/04/fitness-training-for-women.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% ; 
+	background-position: bottom; center;
+}
+
+td a{
+	color:#B65710;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #B65710;
+  color: black;
+}
+
+.table-hover tbody tr:hover td a{
+	color: white;
+}
+
+.navbar-nav>li>a:focus { 
+	color: #FFA012;
+}
+
+.modal-body, .modal-header{
+	color:black;
+}
+
+.hex-image{
+	color:orange;
+	/*background-image: url("images/grit_updated.jpg.rotator.ashx");*/
+}
+
+.feature{
+	background-color: rgba(0,0,0,.9);
+	padding: 80px 0;
+
+}
+	.feature-wrapper{
+		/*position: absolute;*/
+		/*top:200px;*/
+		width: 50em;
+		height: 10em;
+		margin: 0 auto;
+	}
+
+	.feature-wrapper .fitness-title:hover{
+		background-color: #B65710;
+		color: black;
+		transition-duration:1s;
+
+	}
+	.features{
+		padding: 0 20px;
+		margin-bottom: 10px;
+
+	}		
+	.fitness-title{
+		text-align: center;
+	  background-color: rgba(0,0,0,1);
+	  outline: solid 1px rgba(0,0,0,.9);
+		color: #B65710;
+		width: 100%;
+		padding-left:5px;
+		padding-bottom: 3px;
+		transition-duration:1s;
+
+	}
+	.fitness-wrapper{
+		outline: 2px solid black;
+		margin: 0 auto;
+		margin-bottom: 5px;
+		width: 200px;
+	}
+
+	.fitness-image{
+		width: auto;
+		height: 200px;
+		background-color: rgba(0,0,0,1);
+		transition-duration:1s;
+	}
+	.fitness-image:hover{
+		opacity: .4;
+    transition-duration:1s;
+	}
+	.videowrapper {
+    position: relative;
+    /*padding-bottom: 35.25%;*/
+    /*padding-top: 30px; */
+    /*top:-140px;*/
+    height: 315px; 
+    margin: 10px 0;
+    /*overflow: hidden;*/
+	}
+	.videowrapper iframe, 
+	.videowrapper object,
+	.videowrapper embed {
+	    /*position: absolute;
+	    top: 0;
+	    left: 0;*/
+	    width: 100%;
+	    height: 100%;
+	}
+
+
+.schedule{
+	padding: 70px 0;
+}
+
+.schedule table{
+background-color: rgba(0,0,0,.6);
+outline: 1px solid #9D1200;
+}
+
+.xs-table{
+	width: 100%;
+}
+
+.xs-table tr {
+	height: 30px;
+}
+.xs-table tr td{
+	padding-left: 8px;
+}
+
+.xs-table tr:nth-child(odd) {
+background-color:rgba(0,0,0,.8);
+}
+
+.membership{
+	padding: 5px;
+	background-color: rgba(0,0,0,.6);
+	margin:0px;
+	outline: 1px solid #9D1200;
+
+}
+
+
+#trainers{
+	padding-top: 60px;
+	padding-bottom: 100px;	
+	background-color: rgba(0,0,0,.9);
+
+}
+.trainer{
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.trainer .trainer-image{
+	display: block;
+	margin: 0 auto;
+	width: auto;
+	height: 350px;
+}
+.trainer-stats-line{
+	color: #9D1200;
+
+}
+.trainer-stats-row li{
+	list-style-type: none;
+}
+
+.title{
+	text-align: center;
+}
+.trainer-box{
+	position: relative;
+	top: -98px;
+	background-color:#B65710; 
+	width: 80px;
+	height: 20px;
+	padding: 10px 40px;
+	outline: 1px solid rgba(0,0,0,.9);
+	text-align: center;
+}
+
+footer{
+	padding: 30px;
+	background-color: rgba(0,0,0,1);
+	color: #636363;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+address strong, address{
+	color: #f7f7f7;
+}
+address a{
+	color:#f7f7f7;
+}
+
+address h3{
+	margin: 0px;
+}
+
+.footer-contact{
+	color: #f7f7f7;
+	padding-right: 140px;
+	border-bottom: .035em solid #B65710;
+	/*border-bottom-right-radius: 10px;*/
+}
+
+/*tr:hover{
+	background-color: #B65710;
+}*/

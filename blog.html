@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Blogger API Example</title>
+ 
+  </head>
+  <body>
+    <div id="content"></div>
+
+    <script>
+    google.setOnLoadCallback(getMyBlogFeed);
+    </script>
+    <script>
+      function handleResponse(response) {
+        document.getElementById("content").innerHTML += "<h1>" + response.title + "</h1>" + response.content;
+      }
+    </script>
+    <script
+    src="https://www.googleapis.com/blogger/v2/blogs/5593228578803281840&key=AIzaSyDLaewY8pVnG3ntSNuNmg9Axn8XodRAczY">
+    </script>
+  </body>
+</html>
