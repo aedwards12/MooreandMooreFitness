@@ -15,6 +15,7 @@ body{
 .header-location{
 	height: 20px;
 	color:#B65710;
+	transition-duration:1s;
 	}
 
 .navbar{
@@ -45,16 +46,20 @@ img {
 }
 
 .jumbotron{
-	/*min-height: 600px;*/
 	margin-bottom: 0px;
-	
 	width: 100%;
   padding-top: 54.166666666667%;
-   height: 0;
+  height: 0;
 	background-image:url("http://mp-fitness.eu/wp-content/uploads/2014/04/fitness-training-for-women.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% ; 
 	background-position: bottom; center;
+}
+blockquote{
+	position: relative;
+	top:-90px;
+	left:-40px;
+	font-size: 2rem;
 }
 
 td a{
@@ -217,13 +222,14 @@ background-color:rgba(0,0,0,.8);
 	text-align: center;
 }
 .trainer-box{
+	font-size: 2.5rem;
 	position: relative;
 	top: -98px;
 	background-color:#B65710; 
-	width: 80px;
-	height: 20px;
-	padding: 10px 40px;
-	outline: 1px solid rgba(0,0,0,.9);
+	width:1em;
+	/*height: .em;*/
+	padding: .5em 1em;
+	outline: .2em solid rgba(0,0,0,.9);
 	text-align: center;
 }
 
@@ -253,6 +259,15 @@ address h3{
 	padding-right: 140px;
 	border-bottom: .035em solid #B65710;
 	/*border-bottom-right-radius: 10px;*/
+}
+.hide{
+	display: none;
+	transition-duration:1s;
+}
+.active-feature{
+	background-color: #B65710;
+	color: black;
+	transition-duration:1s;
 }
 
 /*tr:hover{
